@@ -4,15 +4,16 @@ import static java.lang.Math.sqrt;
 import java.util.Scanner;
 
 /**
- * Класс QuadraticEquation позволяет решать квадратные уравнения вида ax^2 + bx + c = 0
- * Вычисление дискриминанта осуществляет вложенный статический класс Discriminant 
+ * Класс QuadraticEquation позволяет решать квадратные уравнения вида ax^2 + bx + c = 0.
+ * Вычисление дискриминанта осуществляет вложенный статический класс Discriminant.
+ * При компиляции для каждого класса создается один .class файл.
  * @author Valentin Timoshkin
  */
 public class QuadraticEquation {
 
     static class Discriminant {
         /**
-         * Вычисляет дискриминант квадратного уравнения вида ax^2 + bx + c = 0
+         * Вычисляет дискриминант квадратного уравнения вида ax^2 + bx + c = 0.
          * @param a
          * @param b
          * @param c
@@ -24,7 +25,7 @@ public class QuadraticEquation {
     }
     
     /**
-     * Находит решения линейного уравнение вида bx + c = 0
+     * Находит решения линейного уравнение вида bx + c = 0.
      * @param b
      * @param c 
      */
@@ -41,7 +42,7 @@ public class QuadraticEquation {
         }
     }
     /**
-     * Находит решения квадратного уравнения вида ax^2 + bx + c = 0
+     * Находит решения квадратного уравнения вида ax^2 + bx + c = 0.
      * @param a
      * @param b
      * @param c 
