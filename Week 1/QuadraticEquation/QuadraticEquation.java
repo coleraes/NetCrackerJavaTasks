@@ -11,6 +11,8 @@ import java.util.Scanner;
  */
 public class QuadraticEquation {
 
+    private QuadraticEquation() {}
+    
     static class Discriminant {
         /**
          * Вычисляет дискриминант квадратного уравнения вида ax^2 + bx + c = 0.
