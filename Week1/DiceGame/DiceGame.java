@@ -17,8 +17,8 @@ public class DiceGame {
     private int numberOfPlayers = 2;
     private int numberOfDice = 1;
     private int currentWinner = 0;
-    private static int numberOfRequiredWins = 2;
-    private static int delayTime = 4000;
+    private static int numberOfRequiredWins = 7;
+    private static int delayTime = 3000;
     
     /**
      * Создает объект новой игры со значениями по умолчанию.
